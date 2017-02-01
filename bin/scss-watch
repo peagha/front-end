@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scss --watch scss/application.scss:stylesheets/application.css
