@@ -19,7 +19,7 @@ button {
   // TODO: the gradient doesn't seem to make much of a difference here
   background-image: linear-gradient(to bottom, #39b54a, #34aa44 98%);
   color: #ffffff;
-  // button has it own line
+  // button has its own line
   display: block;
   width: 334px;
   // TODO: why margin-bottom doesn't work? margin collapse?
@@ -34,10 +34,10 @@ button {
 }
 
 h1 {
-  // TODO: should I use em here?
+  // TODO: should I use 'em' here?
   font-size: 24px;
   // TODO: how do I add the font?
-  // TODO: sans-serif is the best fallback configuration?
+  // TODO: is sans-serif the best fallback configuration?
   font-family: SourceSansPro, sans-serif;
   color: #354052;
 }
