@@ -61,3 +61,27 @@ h1 {
 .center-text {
   text-align: center;
 }
+
+.image-with-label {
+  // span's parent position must be relative, otherwise it will
+  // calculate its position related to the body (or the next relative parent)
+  position: relative;
+}
+
+// TODO: setting the border radius for the image like this feels wrong
+.image-with-label img {
+  border-radius: 4px;
+}
+
+.image-with-label span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #31353e;
+  color: #fff;
+  padding: 5px 13px;
+  border-radius: 4px;
+  opacity: 0.25;
+  font-size: 12px;
+  text-transform: uppercase;
+}
