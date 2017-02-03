@@ -43,6 +43,8 @@ button {
 h1 {
   // TODO: should I use 'em' here?
   font-size: 24px;
+  // TODO: is it ok to change font-weight of headers?
+  font-weight: normal;
   // TODO: how do I add the font?
   // TODO: is sans-serif the best fallback configuration?
   font-family: SourceSansPro, sans-serif;
